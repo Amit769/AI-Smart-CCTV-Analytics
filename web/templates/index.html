@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CCTV Analytics - Hazard & SOS Command Center</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark">
+  <div class="cctv-container">
+    <!-- Top Navigation Bar -->
+    <header class="cctv-header">
+      <div class="header-branding">
+        <div class="pulse-indicator safe" id="system-status-indicator"></div>
+        <div>
+          <h1 class="system-title">ADVANCED CCTV ANALYTICS</h1>
+          <p class="system-subtitle">Edge AI Hazard Detection • Multi-Frame Verification • SOS Pinpointing</p>
+        </div>
+      </div>
+      <div class="header-telemetry">
+        <div class="telemetry-pill">
+          <span class="telemetry-label">CAMERA:</span>
+          <span class="telemetry-val" id="active-cam-name">Hardware Cam #0</span>
+        </div>
+        <div class="telemetry-pill">
+          <span class="telemetry-label">FPS:</span>
+          <span class="telemetry-val" id="live-fps">0.0</span>
+        </div>
+        <div class="telemetry-pill alarm-pill" id="alarm-status-pill">
+          <span class="telemetry-label">ALARM:</span>
+          <span class="telemetry-val status-safe" id="alarm-state-text">STANDBY</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hazard Alert Banner (Visible when active) -->
+    <div class="hazard-banner" id="hazard-alert-banner" style="display: none;">
+      <div class="banner-content">
+        <span class="banner-icon">🚨</span>
+        <div class="banner-text">
+          <strong id="banner-hazard-title">CRITICAL HAZARD DETECTED!</strong>
+          <span id="banner-hazard-detail">Confirmed across consecutive frames. Alarm sounding & SOS dispatched.</span>
+        </div>
+      </div>
+      <div class="banner-actions">
+        <button class="btn btn-warning" id="btn-silence-alarm">SILENCE ALARM</button>
+      </div>
+    </div>
+
+    <!-- Main Content Layout -->
+    <main class="cctv-main-grid">
+      <!-- Left Column: Video Feed & Live Feeds -->
+      <section class="cctv-viewport-card">
+        <div class="card-header">
+          <div class="card-title-group">
+            <span class="live-tag">LIVE FEED</span>
+            <span class="feed-location" id="location-display-text">Perimeter Gate 2</span>
+          </div>
+          <div class="camera-badges">
+            <span class="badge badge-hardware" id="hw-cam-badge">Physical Hardware Camera</span>
+          </div>
+        </div>
+
+        <div class="video-wrapper">
+          <img src="/video_feed" alt="Live CCTV Video Feed" id="cctv-stream" class="video-element">
+          
+          <!-- Overlaid Live Detection Counter HUD -->
+          <div class="video-overlay-hud">
+            <div class="hud-item" id="hud-fire">
+              <span class="hud-label">🔥 FIRE</span>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-fire" style="width: 0%;"></div></div>
+              <span class="hud-count" id="count-fire">0/5</span>
+            </div>
+            <div class="hud-item" id="hud-smoke">
+              <span class="hud-label">💨 SMOKE</span>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-smoke" style="width: 0%;"></div></div>
+              <span class="hud-count" id="count-smoke">0/5</span>
+            </div>
+            <div class="hud-item" id="hud-fall">
+              <span class="hud-label">⚠️ FALL</span>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-fall" style="width: 0%;"></div></div>
+              <span class="hud-count" id="count-fall">0/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="viewport-footer">
+          <div class="system-rules-note">
+            <span>🛡️ Hardware Camera Enforced: Physical devices only (MSMF/DirectShow/V4L2)</span>
+          </div>
+          <div class="stream-controls">
+            <button class="btn btn-secondary btn-sm" id="btn-test-alarm">Test Audio Alarm</button>
+            <button class="btn btn-danger btn-sm" id="btn-test-sos">Test SOS Dispatch</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Column: Telemetry & Controls -->
+      <aside class="cctv-sidebar">
+        <!-- SOS Dispatch & Pinpoint Card -->
+        <div class="panel-card">
+          <div class="panel-header">
+            <h3>📍 SOS EMERGENCY PINPOINT</h3>
+          </div>
+          <div class="panel-body">
+            <div class="info-row">
+              <span class="info-key">SOS Contact:</span>
+              <span class="info-value text-accent" id="sos-phone-display">+1234567890</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Coordinates:</span>
+              <span class="info-value" id="coords-display">28.6139° N, 77.2090° E</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Verification:</span>
+              <span class="info-value">5 Consecutive Frames (80%+ Conf)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Cooldown:</span>
+              <span class="info-value">60s Suppression Window</span>
+            </div>
+
+            <a href="#" target="_blank" class="btn btn-primary btn-block" id="btn-google-maps">
+              Open Live Location in Google Maps ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- System Parameters Card -->
+        <div class="panel-card">
+          <div class="panel-header">
+            <h3>⚙️ DETECTION CONTROLS</h3>
+          </div>
+          <div class="panel-body">
+            <form id="settings-form">
+              <div class="form-group">
+                <label>SOS Emergency Phone Number</label>
+                <input type="text" id="input-sos-phone" class="form-control" value="+1234567890">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Confidence (0.50 - 0.95)</label>
+                  <input type="number" id="input-conf" class="form-control" step="0.05" min="0.5" max="0.95" value="0.70">
+                </div>
+                <div class="form-group">
+                  <label>Consecutive Frames</label>
+                  <input type="number" id="input-frames" class="form-control" min="1" max="15" value="5">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-secondary btn-block">Save Configuration</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Recent Incidents & Evidence Gallery -->
+        <div class="panel-card">
+          <div class="panel-header">
+            <h3>📸 EVIDENCE & INCIDENT LOG</h3>
+          </div>
+          <div class="panel-body incident-list" id="incident-container">
+            <div class="empty-state">No hazards detected. System standing guard.</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

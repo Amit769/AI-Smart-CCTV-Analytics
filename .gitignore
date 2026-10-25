@@ -1,0 +1,33 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Dataset and training outputs
+model_training/datasets/
+model_training/runs/
+runs/
+
+# Model weights and large exports
+*.pt
+*.onnx
+*.engine
+*.bin
+
+# Temporary logs
+kernel.errors.txt
+*.log
+
+# Generated incident evidence
+evidence/logs/*
+evidence/snapshots/*
+
+# OpenVINO model files (can be distributed separately)
+models/hazard_best_openvino_model/

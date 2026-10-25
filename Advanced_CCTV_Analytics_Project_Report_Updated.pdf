@@ -1,0 +1,1854 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Advanced CCTV Analytics Project Report)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 18 0 R 21 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 13372
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 704 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 24 Tf 28 TL (ADVANCED CCTV ANALYTICS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666 cm
+q
+BT 1 0 0 1 0 20 Tm 16 TL /F2 12 Tf .772549 .188235 .188235 rg (AI Hazard Detection, Multi-Frame Verification, Live SOS Pinpointing & Model Training) Tj T* (Report) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+q
+BT 1 0 0 1 0 19.5 Tm 14 TL /F2 8.5 Tf .443137 .501961 .588235 rg (Generated:) Tj /F1 8.5 Tf ( October 12, 2026 - 01:41  ) Tj (|) Tj (  ) Tj /F2 8.5 Tf (Frameworks:) Tj /F1 8.5 Tf ( Ultralytics YOLOv8, OpenCV, FastAPI, PyTorch, Twilio  ) Tj (|) Tj (  ) Tj /F2 8.5 Tf (Target) Tj T* (Hardware:) Tj /F1 8.5 Tf ( Physical CCTV / USB Webcams) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614.5 cm
+q
+1.5 w
+1 J
+.101961 .211765 .364706 RG
+n 0 0 m 492 0 l S
+Q
+Q
+q
+1 0 0 1 60 582.5 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .101961 .211765 .364706 rg (1. Executive Overview & System Objectives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 60.5 Tm /F1 9.5 Tf 14 TL (This project implements an intelligent, real-time edge CCTV video analytics system engineered to detect critical) Tj T* (hazardous situations \(fire, smoke, person falls, and restricted perimeter intrusions\) directly from physical camera) Tj T* (streams. When an anomaly is validated, the system automatically captures evidence, pinpoints the exact physical) Tj T* (location with a live Google Maps link, sounds an audible siren alarm, and dispatches an SOS emergency notification) Tj T* (to designated emergency responders.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472.5 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .101961 .211765 .364706 rg (2. Model Training & Kaggle Dataset Integration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394.5 cm
+q
+BT 1 0 0 1 0 60.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (A dedicated model training environment was constructed under model_training/ to download and format datasets) Tj T* (from Kaggle \(e.g. ) Tj /F3 9.5 Tf (sayedgamal99/smoke-fire-detection-yolo) Tj /F1 9.5 Tf (\) and benchmark hazard corpuses. The model training) Tj T* (pipeline converted raw annotations into standardized YOLOv8 format: ) Tj /F2 9.5 Tf (412 training images) Tj /F1 9.5 Tf ( and ) Tj /F2 9.5 Tf (90 validation) Tj T* (images) Tj /F1 9.5 Tf ( containing ) Tj /F2 9.5 Tf (138 hazard instances) Tj /F1 9.5 Tf (. Training was executed with YOLOv8 Nano architecture, balancing) Tj T* (real-time edge throughput with high detection precision.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 4.5 Tm /F2 9.5 Tf 14 TL (Model Training Progress by Epoch:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.5 250.5 cm
+q
+.101961 .211765 .364706 rg
+n 0 114 505 -19 re f*
+1 1 1 rg
+n 0 95 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 76 505 -19 re f*
+1 1 1 rg
+n 0 57 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 38 505 -19 re f*
+1 1 1 rg
+n 0 19 505 -19 re f*
+.921569 .972549 1 rg
+n 0 19 505 -19 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 8.512 0 Td (Epoch) Tj T* -8.512 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL .798 0 Td (Train Box Loss) Tj T* -0.798 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 2.21325 0 Td (Train Cls Loss) Tj T* -2.21325 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 5.51975 0 Td (Precision \(P\)) Tj T* -5.51975 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.399 0 Td (Recall \(R\)) Tj T* -9.399 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.40425 0 Td (mAP@0.50) Tj T* -9.40425 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 99 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 2.2185 0 Td (mAP@0.50:0.95) Tj T* -2.2185 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.137 0 Td (1) Tj T* -19.137 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.9554) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (5.1056) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (51.69%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 14.58825 0 Td (30.44%) Tj T* -14.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (31.61%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 80 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.58825 0 Td (15.01%) Tj T* -19.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.137 0 Td (2) Tj T* -19.137 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.8279) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (2.4275) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (49.06%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 14.58825 0 Td (47.46%) Tj T* -14.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (45.58%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.58825 0 Td (20.28%) Tj T* -19.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.137 0 Td (3) Tj T* -19.137 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.7292) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.8818) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (55.04%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 14.58825 0 Td (37.68%) Tj T* -14.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (40.72%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.58825 0 Td (17.62%) Tj T* -19.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.137 0 Td (4) Tj T* -19.137 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.6949) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.7183) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (45.56%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 14.58825 0 Td (51.45%) Tj T* -14.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (49.60%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 19.58825 0 Td (21.52%) Tj T* -19.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 5.91525 0 Td (5 \(Best\)) Tj T* -5.91525 0 Td ET
+Q
+Q
+q
+1 0 0 1 61 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.6414) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.5035 0 Td (1.5125) Tj T* -18.5035 0 Td ET
+Q
+Q
+q
+1 0 0 1 211 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 17.08825 0 Td (57.18%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 286 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 14.58825 0 Td (62.91%) Tj T* -14.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 356 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 17.08825 0 Td (62.07%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 431 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 19.58825 0 Td (27.53%) Tj T* -19.58825 0 Td ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .878431 RG
+.5 w
+n 0 114 m 505 114 l S
+n 0 0 m 505 0 l S
+n 0 0 m 0 114 l S
+n 505 0 m 505 114 l S
+n 0 95 m 505 95 l S
+n 0 76 m 505 76 l S
+n 0 57 m 505 57 l S
+n 0 38 m 505 38 l S
+n 0 19 m 505 19 l S
+n 55 0 m 55 114 l S
+n 130 0 m 130 114 l S
+n 205 0 m 205 114 l S
+n 280 0 m 280 114 l S
+n 350 0 m 350 114 l S
+n 425 0 m 425 114 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 240.5 cm
+Q
+q
+1 0 0 1 60 226.5 cm
+q
+BT 1 0 0 1 0 4.5 Tm 14 TL /F2 9.5 Tf .176471 .215686 .282353 rg (Final Validation & Benchmark Scores \(models/hazard_best.pt\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.5 82.5 cm
+q
+.168627 .423529 .690196 rg
+n 0 136 505 -19 re f*
+1 1 1 rg
+n 0 117 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 98 505 -19 re f*
+1 1 1 rg
+n 0 79 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 60 505 -30 re f*
+1 1 1 rg
+n 0 30 505 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 18.81 0 Td (Evaluation Metric) Tj T* -18.81 0 Td ET
+Q
+Q
+q
+1 0 0 1 126 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 17.18925 0 Td (Score) Tj T* -17.18925 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 8.58825 0 Td (Percentage) Tj T* -8.58825 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 64.1645 0 Td (Operational Significance) Tj T* -64.1645 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (mAP@0.50) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 16.0035 0 Td (0.6301) Tj T* -16.0035 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 17.08825 0 Td (63.01%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (High hazard localization accuracy at 50% IoU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Recall \(R\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 16.0035 0 Td (0.6572) Tj T* -16.0035 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (65.72%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (High detection rate for hazardous fire/smoke scenes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Precision \(P\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 16.0035 0 Td (0.6182) Tj T* -16.0035 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (61.82%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Clean bounding box boundaries with low false alarm rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (mAP@0.50:0.95) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 39.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 16.0035 0 Td (0.2797) Tj T* -16.0035 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 39.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.08825 0 Td (27.97%) Tj T* -17.08825 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 34 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Strict COCO-format evaluation across multiple IoU) Tj T* (thresholds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 9.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Inference Latency) Tj T* ET
+Q
+Q
+q
+1 0 0 1 126 9.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 13.88275 0 Td (23.9 ms) Tj T* -13.88275 0 Td ET
+Q
+Q
+q
+1 0 0 1 196 9.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 11.29975 0 Td (~41.8 FPS) Tj T* -11.29975 0 Td ET
+Q
+Q
+q
+1 0 0 1 271 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Sub-30ms execution suitable for real-time edge CCTV) Tj T* (streams) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .878431 RG
+.5 w
+n 0 136 m 505 136 l S
+n 0 0 m 505 0 l S
+n 0 0 m 0 136 l S
+n 505 0 m 505 136 l S
+n 0 117 m 505 117 l S
+n 0 98 m 505 98 l S
+n 0 79 m 505 79 l S
+n 0 60 m 505 60 l S
+n 0 30 m 505 30 l S
+n 120 0 m 120 136 l S
+n 190 0 m 190 136 l S
+n 265 0 m 265 136 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 68.5 cm
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.443137 .501961 .588235 rg
+BT 1 0 0 1 517.08 36 Tm (Page 1 of 3) Tj T* ET
+BT 1 0 0 1 54 36 Tm (CONFIDENTIAL & PROPRIETARY \227 ADVANCED CCTV AI PLATFORM) Tj T* ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 46 m 558 46 l S
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+500 32 60 14 re
+f*
+0.443137 0.501961 0.588235 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 517.08 36 Tm
+(Page 1 of 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 14 0 R
+/F1-0 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 8207
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 750 m 558 750 l S
+n 54 46 m 558 46 l S
+BT /F1 8 Tf 9.6 TL ET
+.443137 .501961 .588235 rg
+BT 1 0 0 1 54 754.6 Tm (Advanced CCTV Analytics \227 Hazard Detection, Live SOS & AI Training Report) Tj T* ET
+BT 1 0 0 1 54 36 Tm (CONFIDENTIAL & PROPRIETARY \227 ADVANCED CCTV AI PLATFORM) Tj T* ET
+q
+1 0 0 1 60 714 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (2.1 Detailed Performance Metrics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666 cm
+q
+BT 1 0 0 1 0 32.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (Derived from the final validation scores of ) Tj /F2 9.5 Tf (models/hazard_best.pt) Tj /F1 9.5 Tf ( \(Precision 61.82%, Recall 65.72%\) on the) Tj T* (validation set of ) Tj /F2 9.5 Tf (138 hazard instances) Tj /F1 9.5 Tf (. The F1 score is the harmonic mean of precision and recall, giving a single) Tj T* (balanced measure of detection quality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (Summary Metrics:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54 502 cm
+q
+.168627 .423529 .690196 rg
+n 0 136 504 -19 re f*
+.968627 .980392 .988235 rg
+n 0 87 504 -19 re f*
+.968627 .980392 .988235 rg
+n 0 49 504 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Metric) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 121 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Formula / Interpretation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 96.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Precision \(P\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 96.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (61.82%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 91 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (TP / \(TP + FP\). About 62 of every 100 detections are real) Tj T* (hazards.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 72 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Recall \(R\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 72 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (65.72%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 72 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (TP / \(TP + FN\). About 66 of every 100 real hazards are detected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (F1 Score) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 53 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (0.6371 \(63.7%\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 53 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (2 \327 \(P \327 R\) / \(P + R\). Balanced accuracy of detection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 28.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL -0.09925 Tw (False Positive Rate \(of detections\)) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 156 28.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (38.1%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (FP / \(TP + FP\) = 1 - Precision. Share of alerts that are false) Tj T* (alarms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Miss Rate \(of hazards\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (34.1%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (FN / \(TP + FN\) = 1 - Recall. Share of real hazards not detected.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .878431 RG
+.5 w
+n 0 136 m 504 136 l S
+n 0 0 m 504 0 l S
+n 0 0 m 0 136 l S
+n 504 0 m 504 136 l S
+n 0 117 m 504 117 l S
+n 0 87 m 504 87 l S
+n 0 68 m 504 68 l S
+n 0 49 m 504 49 l S
+n 0 19 m 504 19 l S
+n 150 0 m 150 136 l S
+n 245 0 m 245 136 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 480 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (Estimated Confusion Counts \(Validation Set\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54 379 cm
+q
+.168627 .423529 .690196 rg
+n 0 95 504 -19 re f*
+.968627 .980392 .988235 rg
+n 0 57 504 -19 re f*
+.968627 .980392 .988235 rg
+n 0 19 504 -19 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 80 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 80 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Estimate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 80 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Derivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (True Positives \(TP\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (~91) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 61 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Recall \327 138 = 0.6572 \327 138) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (False Negatives \(FN\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (~47) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 42 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (138 - TP = missed hazards) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Total Detections) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (~147) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 23 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (TP / Precision = 91 / 0.6182) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (False Positives \(FP\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 156 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (~56) Tj T* ET
+Q
+Q
+q
+1 0 0 1 251 4 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Total detections - TP = false alarms) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .878431 RG
+.5 w
+n 0 95 m 504 95 l S
+n 0 0 m 504 0 l S
+n 0 0 m 0 95 l S
+n 504 0 m 504 95 l S
+n 0 76 m 504 76 l S
+n 0 57 m 504 57 l S
+n 0 38 m 504 38 l S
+n 0 19 m 504 19 l S
+n 150 0 m 150 95 l S
+n 245 0 m 245 95 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 357 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (Operational Significance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 323 cm
+q
+BT 1 0 0 1 0 18.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (\177 ) Tj /F2 9.5 Tf (False negatives \(~34% of hazards missed\)) Tj /F1 9.5 Tf ( are the most critical risk in a safety system, since a missed fire or) Tj T* (smoke event delays emergency response. Recall should be prioritized in further training.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320 cm
+Q
+q
+1 0 0 1 60 278 cm
+q
+BT 1 0 0 1 0 32.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (\177 ) Tj /F2 9.5 Tf (False positives \(~38% of detections\)) Tj /F1 9.5 Tf ( are reduced in live operation by the multi-frame persistence check \(5+) Tj T* (consecutive frames above 70% confidence\) and the 60-second alert cooldown, so the per-frame rates above are a) Tj T* (conservative upper bound.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 275 cm
+Q
+q
+1 0 0 1 60 247 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 18.5 Tm /F1 9.5 Tf 14 TL (\177 The model was still improving at epoch 5 \(mAP@0.50 rose from 31.61% to 62.07%\). Additional epochs and a larger) Tj T* (dataset than the current 412 training and 90 validation images are expected to raise F1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239 cm
+Q
+q
+1 0 0 1 54 187 cm
+q
+.929412 .94902 .968627 rg
+n 0 52 504 -52 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+q
+BT 1 0 0 1 0 27.5 Tm 12 TL /F2 8.5 Tf .176471 .215686 .282353 rg (Note on estimation:) Tj /F1 8.5 Tf ( TP, FP and FN are approximated from the reported precision and recall, assuming both were measured at) Tj T* (the same confidence threshold on the 138 validation instances. For exact values, read the confusion matrix) Tj T* (\(confusion_matrix.png\) generated by ) Tj /F3 8.5 Tf (model.val\(\)) Tj /F1 8.5 Tf ( in the Ultralytics run folder.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+500 32 60 14 re
+f*
+0.443137 0.501961 0.588235 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 517.08 36 Tm
+(Page 2 of 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 4861
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 714 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (3. Connected Hardware Camera Policy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+q
+BT 1 0 0 1 0 60.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (In strict accordance with project constraints, ) Tj /F2 9.5 Tf (mock videos, stock camera files, and synthetic scenes are) Tj T* (forbidden) Tj /F1 9.5 Tf (. The module core/camera.py queries the host operating system's video subsystem \(DirectShow on) Tj T* (Windows / V4L2 on Linux\) and binds exclusively to physically detected hardware cameras \(e.g. Camera #0) Tj (\). If no) Tj T* (physical camera is plugged in, the system raises a hard stop with an actionable alert rather than substituting a fake) Tj T* (video.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 604 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .101961 .211765 .364706 rg (4. Edge Frame Extraction & Anomaly Verification) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+q
+BT 1 0 0 1 0 102.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (\177 ) Tj /F2 9.5 Tf (Frame Extraction & Denoising:) Tj /F1 9.5 Tf ( Each incoming frame is resized to standard analytics resolution \(640\327480\) and) Tj T* (passed through a Gaussian/bilateral filter \() Tj (core/preprocessor.py) Tj (\) to remove sensor noise while preserving sharp) Tj T* (flame/smoke edges.) Tj  T* (\177 ) Tj /F2 9.5 Tf (Multi-Frame Persistence:) Tj /F1 9.5 Tf ( To eliminate transient false positives \(e.g. car headlights, sun reflection\), a hazard is) Tj T* -0.040094 Tw (confirmed only after appearing in ) Tj /F2 9.5 Tf (5 or more consecutive frames) Tj /F1 9.5 Tf ( with confidence exceeding 70% \(configurable up to) Tj T* 0 Tw (95%\).) Tj  T* (\177 ) Tj /F2 9.5 Tf (Alert Cooldown:) Tj /F1 9.5 Tf ( Once an anomaly triggers, an automatic ) Tj /F2 9.5 Tf (60-second cooldown window) Tj /F1 9.5 Tf ( suppresses repeated) Tj T* (notifications for the same incident while keeping monitoring active.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468 cm
+Q
+q
+1 0 0 1 60 436 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (5. Audible Emergency Siren Alarm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+q
+BT 1 0 0 1 0 60.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (Upon hazard confirmation, an audible emergency alarm is triggered immediately:) Tj  T* (\177 ) Tj /F2 9.5 Tf (Host Siren \() Tj (core/alarm.py) Tj (\):) Tj /F1 9.5 Tf ( Runs a non-blocking background thread utilizing Windows winsound.Beep cycling) Tj T* (between 1,600 Hz and 950 Hz to produce an authentic emergency siren that sounds even without external speakers.) Tj  T* (\177 ) Tj /F2 9.5 Tf (Web Audio API Siren:) Tj /F1 9.5 Tf ( The web dashboard runs a browser-synthesized sawtooth oscillator that sounds through) Tj T* (desktop audio when a hazard is active. An interactive 'Silence Alarm' button acknowledges and mutes the siren.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .101961 .211765 .364706 rg (6. SOS Emergency Pinpoint & Evidence Snapshot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234 cm
+q
+BT 1 0 0 1 0 74.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (\177 ) Tj /F2 9.5 Tf (Evidence Snapshot:) Tj /F1 9.5 Tf ( High-resolution frames are stamped with red alert HUD headers, camera identifiers,) Tj T* (timestamps, and GPS coordinates, saved to evidence/snapshots/hazard_{type}_{timestamp}.jpg) Tj (.) Tj  T* (\177 ) Tj /F2 9.5 Tf (Live Geolocation:) Tj /F1 9.5 Tf ( core/locator.py fetches GPS coordinates or IP-assisted geolocation, generating a direct Google) Tj T* (Maps pinpoint link: https://maps.google.com/?q={latitude},{longitude}) Tj (.) Tj  T* (\177 ) Tj /F2 9.5 Tf (SOS Dispatch Format:) Tj /F1 9.5 Tf ( Dispatches SMS / WhatsApp via Twilio, Telegram Bot messages, and updates) Tj T* (incidents.json) Tj (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168.5 cm
+q
+.929412 .94902 .968627 rg
+n 8 0 476 57.5 re f*
+Q
+q
+BT 1 0 0 1 8 49 Tm 11.5 TL /F4 8.5 Tf .176471 .215686 .282353 rg /F5 8.5 Tf 11.5 TL (n) Tj /F4 8.5 Tf 11.5 TL ( EMERGENCY SOS ALERT: FIRE DETECTED!) Tj  T* (Camera: Gate 1 - Main Perimeter | Time: 23:41:02) Tj  T* (Confidence: 95.0%) Tj  T* (Location: https://maps.google.com/?q=28.632700,77.219800) Tj  T* (Evidence: hazard_test_fire_20261011_234102.jpg) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154.5 cm
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.443137 .501961 .588235 rg
+BT 1 0 0 1 54 756 Tm (Advanced CCTV Analytics \227 Hazard Detection, Live SOS & AI Training Report) Tj T* ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 750 m 558 750 l S
+BT 1 0 0 1 517.08 36 Tm (Page 2 of 3) Tj T* ET
+BT 1 0 0 1 54 36 Tm (CONFIDENTIAL & PROPRIETARY \227 ADVANCED CCTV AI PLATFORM) Tj T* ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 46 m 558 46 l S
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+500 32 60 14 re
+f*
+0.443137 0.501961 0.588235 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 517.08 36 Tm
+(Page 3 of 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 8281
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 714 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (7. Live Command Center Web Dashboard) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+q
+BT 1 0 0 1 0 102.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (Built with ) Tj /F2 9.5 Tf (FastAPI and modern HTML5) Tj /F1 9.5 Tf ( \() Tj (web_app.py) Tj (\), the dashboard provides:) Tj  T* (1. ) Tj /F2 9.5 Tf (Live MJPEG Video Feed \() Tj (/video_feed) Tj (\):) Tj /F1 9.5 Tf ( Displays connected camera footage with real-time YOLO bounding) Tj T* (boxes, FPS counter, and consecutive frame HUD tracking bars.) Tj  T* (2. ) Tj /F2 9.5 Tf (Instant Controls:) Tj /F1 9.5 Tf ( Test Audio Alarm, Test SOS Dispatch, and Silence Alarm buttons.) Tj  T* (3. ) Tj /F2 9.5 Tf (Interactive Evidence Gallery:) Tj /F1 9.5 Tf ( Real-time incident list with direct links to Google Maps and full-resolution evidence) Tj T* (photos.) Tj  T* (4. ) Tj /F2 9.5 Tf (Dynamic Parameter Configuration:) Tj /F1 9.5 Tf ( Edit SOS emergency phone number, confidence threshold, and consecutive) Tj T* (frame counts without restart.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .101961 .211765 .364706 rg (8. System Verification & Test Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+q
+BT 1 0 0 1 0 4.5 Tm 14 TL /F1 9.5 Tf .176471 .215686 .282353 rg (All 7 architectural milestones were verified via test_pipeline.py) Tj (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.5 347 cm
+q
+.101961 .211765 .364706 rg
+n 0 185 505 -19 re f*
+1 1 1 rg
+n 0 166 505 -30 re f*
+.968627 .980392 .988235 rg
+n 0 136 505 -19 re f*
+1 1 1 rg
+n 0 117 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 98 505 -19 re f*
+1 1 1 rg
+n 0 79 505 -19 re f*
+.968627 .980392 .988235 rg
+n 0 60 505 -30 re f*
+1 1 1 rg
+n 0 30 505 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 170 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 29.4795 0 Td (Test Milestone) Tj T* -29.4795 0 Td ET
+Q
+Q
+q
+1 0 0 1 136 170 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 22.89125 0 Td (Component) Tj T* -22.89125 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 170 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 13.512 0 Td (Result) Tj T* -13.512 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 170 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 84.6935 0 Td (Notes) Tj T* -84.6935 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 145.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (1. Hardware Camera Probe) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 145.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 17.21325 0 Td (core/camera.py) Tj T* -17.21325 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 145.5 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 140 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Discovered Camera #0, captured 480\327640\3273) Tj T* (frame) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 121 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (2. Frame Preprocessing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 121 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 6.584 0 Td (core/preprocessor.py) Tj T* -6.584 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 121 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 121 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .176471 .215686 .282353 rg (Gaussian blur denoise & resolution standardization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (3. Trained Model Inference) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 3.507 0 Td (models/hazard_best.pt) Tj T* -3.507 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 102 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 102 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (6.17 MB model loaded, inference executed cleanly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (4. Camera Location Pinpoint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 18.6285 0 Td (core/locator.py) Tj T* -18.6285 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 83 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 83 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Generated valid Google Maps link with coordinates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (5. Evidence Snapshotting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 1.14825 0 Td (core/alert_dispatcher.py) Tj T* -1.14825 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 64 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 64 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Saved timestamped JPEG with red HUD header) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (6. SOS Emergency Dispatch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 39.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 1.14825 0 Td (core/alert_dispatcher.py) Tj T* -1.14825 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 39.5 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 34 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Dispatched alert payload and logged to) Tj T* (incidents.json) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 9.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (7. Siren Alarm Trigger) Tj T* ET
+Q
+Q
+q
+1 0 0 1 136 9.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL 20.75775 0 Td (core/alarm.py) Tj T* -20.75775 0 Td ET
+Q
+Q
+q
+1 0 0 1 241 9.5 cm
+q
+.152941 .403922 .286275 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL 9.024 0 Td (PASSED) Tj T* -9.024 0 Td ET
+Q
+Q
+q
+1 0 0 1 306 4 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F1 8.5 Tf .176471 .215686 .282353 rg (Background thread sound siren triggered &) Tj T* (silenced) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .878431 RG
+.5 w
+n 0 185 m 505 185 l S
+n 0 0 m 505 0 l S
+n 0 0 m 0 185 l S
+n 505 0 m 505 185 l S
+n 0 166 m 505 166 l S
+n 0 136 m 505 136 l S
+n 0 117 m 505 117 l S
+n 0 98 m 505 98 l S
+n 0 79 m 505 79 l S
+n 0 60 m 505 60 l S
+n 0 30 m 505 30 l S
+n 130 0 m 130 185 l S
+n 235 0 m 235 185 l S
+n 300 0 m 300 185 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 333 cm
+Q
+q
+1 0 0 1 60 301 cm
+q
+.101961 .211765 .364706 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (9. Operational Run Commands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 4.5 Tm /F2 9.5 Tf 14 TL (To launch the Live Command Center Web Dashboard:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.5 cm
+q
+.929412 .94902 .968627 rg
+n 8 0 476 11.5 re f*
+Q
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 8 3 Tm /F4 8.5 Tf 11.5 TL (python main.py) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.5 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 4.5 Tm /F2 9.5 Tf 14 TL (To launch in Desktop Window Mode:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+q
+.929412 .94902 .968627 rg
+n 8 0 476 11.5 re f*
+Q
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 8 3 Tm /F4 8.5 Tf 11.5 TL (python main.py --window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200 cm
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 0 4.5 Tm /F2 9.5 Tf 14 TL (To retrain the model with custom epochs:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180.5 cm
+q
+.929412 .94902 .968627 rg
+n 8 0 476 11.5 re f*
+Q
+q
+.176471 .215686 .282353 rg
+BT 1 0 0 1 8 3 Tm /F4 8.5 Tf 11.5 TL (python model_training/train_model.py 5) Tj T* ET
+Q
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.443137 .501961 .588235 rg
+BT 1 0 0 1 54 756 Tm (Advanced CCTV Analytics \227 Hazard Detection, Live SOS & AI Training Report) Tj T* ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 750 m 558 750 l S
+BT 1 0 0 1 517.08 36 Tm (Page 3 of 3) Tj T* ET
+BT 1 0 0 1 54 36 Tm (CONFIDENTIAL & PROPRIETARY \227 ADVANCED CCTV AI PLATFORM) Tj T* ET
+.796078 .835294 .878431 RG
+.5 w
+n 54 46 m 558 46 l S
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+500 32 60 14 re
+f*
+0.443137 0.501961 0.588235 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 517.08 36 Tm
+(Page 4 of 4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000102 00000 n 
+0000000182 00000 n 
+0000000231 00000 n 
+0000000496 00000 n 
+0000013921 00000 n 
+0000014028 00000 n 
+0000014135 00000 n 
+0000014247 00000 n 
+0000014362 00000 n 
+0000014468 00000 n 
+0000014552 00000 n 
+0000014801 00000 n 
+0000023061 00000 n 
+0000023169 00000 n 
+0000023277 00000 n 
+0000023390 00000 n 
+0000023496 00000 n 
+0000023764 00000 n 
+0000028678 00000 n 
+0000028786 00000 n 
+0000029054 00000 n 
+0000037388 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+37496
+%%EOF

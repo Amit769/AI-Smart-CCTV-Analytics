@@ -1,0 +1,60 @@
+{
+  "camera": {
+    "device_index": 0,
+    "resolution": [
+      640,
+      480
+    ],
+    "fps": 30,
+    "camera_name": "Gate 1 - Main Perimeter",
+    "denoise": false
+  },
+  "detection": {
+    "model_path": "models/hazard_best.pt",
+    "confidence_threshold": 0.7,
+    "consecutive_frames_required": 3,
+    "cooldown_seconds": 60,
+    "tracked_hazards": [
+      "fire",
+      "smoke",
+      "fall",
+      "intrusion"
+    ]
+  },
+  "alarm": {
+    "sound_enabled": true,
+    "siren_frequency_high": 1500,
+    "siren_frequency_low": 900,
+    "beep_duration_ms": 350
+  },
+  "location": {
+    "use_auto_geolocation": true,
+    "default_latitude": 28.6139,
+    "default_longitude": 77.209,
+    "location_name": "Perimeter Gate 2, Industrial Sector"
+  },
+  "sos_alert": {
+    "sos_phone_number": "+1234567890",
+    "channels": {
+      "sms": false,
+      "whatsapp": false,
+      "telegram": false,
+      "local_logger": true
+    },
+    "twilio": {
+      "account_sid": "",
+      "auth_token": "",
+      "from_phone_number": "",
+      "whatsapp_from": "whatsapp:+14155238886"
+    },
+    "telegram": {
+      "bot_token": "",
+      "chat_id": ""
+    }
+  },
+  "evidence": {
+    "save_snapshots": true,
+    "snapshots_dir": "evidence/snapshots",
+    "logs_dir": "evidence/logs"
+  }
+}
